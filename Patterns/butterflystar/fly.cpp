@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
     int n;
-    cout<<"Enter the rows:"<<endl;
+    cout<<"Enter the no.of rows:"<<endl;
     cin>>n;
     //upper part
     for(int i=1;i<=n;i++){
