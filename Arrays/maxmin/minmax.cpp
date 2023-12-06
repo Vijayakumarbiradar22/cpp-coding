@@ -23,6 +23,6 @@ int main(){
             minNo=array[i];
         }
     }
-    // cout<<"Max is "<<maxNo<<endl;
-    // cout<<"Min is "<<minNo<<endl;
+    cout<<"Max is "<<maxNo<<endl;
+    cout<<"Min is "<<minNo<<endl;
 }
