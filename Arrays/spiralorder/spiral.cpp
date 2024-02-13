@@ -20,5 +20,14 @@ int main(){
     int rowend=r-1;
     int colstart=0;
     int colend=c-1;
-    
+
+    while(rowstart<=rowend && colstart<=colend){
+
+        for(int col=colstart;col<=colend;col++){
+            cout<<mat[rowstart][col];
+        }
+        rowstart++;
+
+        for()
+    }
 }
