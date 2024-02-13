@@ -22,5 +22,6 @@ int main(){
     int key;
     cout<<"Enter the search element:";
     cin>>key;
-    linearsearch(array,n,key);
+    cout<<linearsearch(array,n,key)<<endl;
+
 }
