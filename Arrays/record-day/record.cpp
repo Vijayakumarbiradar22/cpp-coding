@@ -23,7 +23,6 @@ int main(){
             ans++;
         }
         mx=max(mx,arr[i]);
-        cout<<ans<<endl;
-        
     }
+    cout<<ans<<endl;
 }
