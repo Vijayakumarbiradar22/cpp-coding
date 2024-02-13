@@ -38,6 +38,9 @@ int main(){
         }
         rowend--;
 
-        
+        for(int row=rowend;row>=rowstart;row--){
+            cout<<mat[row][colstart];
+        }
+        colstart++;
     }
 }
