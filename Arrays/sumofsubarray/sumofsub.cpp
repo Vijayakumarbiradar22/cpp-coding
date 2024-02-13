@@ -22,3 +22,6 @@ int main(){
     }
     return 0;
 }
+
+//Subarray is a continuous elements of array
+//Subsequence is non continuous but the elements are in the same order from left to right.
