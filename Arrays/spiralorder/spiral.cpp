@@ -24,22 +24,22 @@ int main(){
     while(rowstart<=rowend && colstart<=colend){
 
         for(int col=colstart;col<=colend;col++){
-            cout<<mat[rowstart][col];
+            cout<<mat[rowstart][col]<<" ";
         }
         rowstart++;
 
         for(int row=rowstart;row<=rowend;row++){
-            cout<<mat[row][colend];
+            cout<<mat[row][colend]<<" ";
         }
         colend--;
 
         for(int col=colend;col>=colstart;col--){
-            cout<<mat[rowend][col];
+            cout<<mat[rowend][col]<<" ";
         }
         rowend--;
 
         for(int row=rowend;row>=rowstart;row--){
-            cout<<mat[row][colstart];
+            cout<<mat[row][colstart]<<" ";
         }
         colstart++;
     }
