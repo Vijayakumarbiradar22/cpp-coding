@@ -33,6 +33,11 @@ int main(){
         }
         colend--;
 
-        for()
+        for(int col=colend;col>=colstart;col--){
+            cout<<mat[rowend][col];
+        }
+        rowend--;
+
+        
     }
 }
