@@ -2,7 +2,20 @@
 using namespace std;
 
 int binarysearch(int array[],int n,int key){
-    
+    int s=0;
+    int e=n;
+    while(s<=n){
+        int mid=(s+e)/2;
+
+        if(array[mid]==key){
+            return mid;
+        } else if(array[mid]>key){
+            e=mid-1;
+        } else {
+            s=mid+1;
+        }
+    }
+    return -1;
 }
 
 int main(){
