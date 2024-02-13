@@ -16,5 +16,4 @@ int main(){
         cout<<array[i]<<" ";
     }
     cout<<endl;
-    cout<<array[3]<<" is at position 3";
 }
