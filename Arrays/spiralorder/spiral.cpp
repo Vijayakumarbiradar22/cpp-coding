@@ -14,5 +14,11 @@ int main(){
         }
     }
 
+    cout<<"Spiral order is:"<<endl;
+
+    int rowstart=0;
+    int rowend=r-1;
+    int colstart=0;
+    int colend=c-1;
     
 }
