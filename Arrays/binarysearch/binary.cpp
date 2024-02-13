@@ -1,7 +1,9 @@
 #include<iostream>
 using namespace std;
 
-
+int binarysearch(int array[],int n,int key){
+    
+}
 
 int main(){
     int n;
