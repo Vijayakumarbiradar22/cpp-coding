@@ -28,6 +28,11 @@ int main(){
         }
         rowstart++;
 
+        for(int row=rowstart;row<=rowend;row++){
+            cout<<mat[row][colend];
+        }
+        colend--;
+
         for()
     }
 }
