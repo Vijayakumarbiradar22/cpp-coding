@@ -7,4 +7,20 @@ int main(){
     cout<<"Enter the string:"<<endl;
     cin>>str;
     cout<<"Entered String is:"<<str<<endl;
+
+    string str1(5,'v');
+    cout<<str1<<endl;
+
+    string str2;
+    getline(cin,str2);
+    cout<<str2<<endl;
+
+    string s1="fam";
+    string s2="ily";
+
+    // s1.append(s2);
+    // cout<<s1<<endl;
+
+    cout<<s1+s2<<endl;
+    cout<<s1[2]<<endl;
 }
