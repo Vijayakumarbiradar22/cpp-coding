@@ -23,4 +23,13 @@ int main(){
 
     cout<<s1+s2<<endl;
     cout<<s1[2]<<endl;
+
+    string s3="abc";
+    string s4="abc";
+
+    if(s4.compare(s3)==0){
+        cout<<"Strings are equal"<<endl;
+    } else {
+        cout<<"Strings are not equal"<<endl;
+    }
 }
