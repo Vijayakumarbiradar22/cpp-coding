@@ -24,4 +24,7 @@ int main(){
             ans=i+'a';
         }
     }
+
+    cout<<maxF<<" "<<ans<<endl;
+    return 0;
 }
