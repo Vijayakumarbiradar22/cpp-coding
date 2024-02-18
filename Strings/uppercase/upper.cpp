@@ -8,5 +8,11 @@ int main(){
     string str="asdfghjkl";
     //convert into uppercase
 
-    for()
+    for(int i=0;i<str.size();i++){
+        if(str[i]>='a' && str[i]<='z'){
+            str[i]-=32;
+        }
+    }
+    cout<<str<<endl;
+    
 }
