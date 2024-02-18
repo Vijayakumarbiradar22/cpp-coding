@@ -23,4 +23,13 @@ int main(){
     }
     cout<<str<<endl;
 
+    //direct method
+
+    string s="qwertyuiop";
+
+    transform(s.begin(),s.end(),s.begin(),::toupper);
+    cout<<s<<endl;
+    
+
+
 }
